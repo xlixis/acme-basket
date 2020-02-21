@@ -2,10 +2,12 @@
 **Interview test submission**
 
 ##Installation
+
 Copy the `acme-basket` into a web accessible path i.e `/var/www/html`
 Open your browser and point to your configured `<ServerName>`/acme-basket i.e http://localhost/acme-basket
 
 ##Test cases
+
 The ideal solution should contain automated tests and fixtures. 
 As I don't actually have experience writing those myself, I have simply coded the 4 test cases within the `index.php`.
 
@@ -22,6 +24,7 @@ Test Case 3: http://localhost/acme-basket?case=3
 Test Case 4: http://localhost/acme-basket?case=4
 
 ##Code structure
+
 This solution is not using the most modern coding practices but I would expect it to follow PSR-12 coding style and PHP7.4 methods
 
 The class structure hopefully is self-explanatory as I kept it very simple. 
